@@ -4,7 +4,7 @@ A simple web browser created through MIT App Inventor. Designed for Chromebooks.
 
 # Features
 
-- Up to 5 tabs (may improve in the future)
+- Up to 10 tabs
 - Search through several search engines
 - Desktop mode. Other similar App Inventor browsers load pages like a phone or tablet, this loads the desktop version.
 - Settings
@@ -49,9 +49,25 @@ Go to the same [App Inventor URL](http://ai2.appinventor.mit.edu/) you used befo
   - Uninstalling and reinstalling the companion
 - My Companion launched but the browser doesn't load. Try:
   - Waiting 10-20 more seconds, chromebooks can be quite slow at this step
-  - Quitting the companion and trying `Connect > Chromebook` again.
+  - Quitting the companion and trying `Connect > Chromebook` again
+- My Companion keeps crashing randomly. Try:
+  - Quitting the companion and trying `Connect > Chromebook` again
+  - Closing out of tabs and applications. Chromebooks lack power and for some reason prioritize other things over the companion; this can result in crashes and/or overall slowness
+  - Restarting/Powerwashing your Chromebook
+  - Filling out a bug report under the Issues tab along with **specific instructions on how to replicate the crash.**
  
- **If you find a bug or would like to suggest a feature, go to the Issues tab.**
+ **If you find a bug or would like to suggest a feature, go to the Issues tab. Please be specific about how an issue occured or what a feature should do.**
+ 
+ ### Features Currently in Development
+ #### Checked if in beta
+ 
+ - [X] Add more search engine options
+ - [ ] Options for changing the network or adding a proxy
+ - [ ] Dedicated New Tab rather than opening search engine
+ - [ ] Bookmarks
+ - [ ] Recover closed tab
+ - [ ] Settings saved after closing and re-opening
+ - [ ] Color themes
  
  # Credits
  Thanks to Sunny Gupta for his `CustomWebView` extension that makes certain features in this browser possible.
