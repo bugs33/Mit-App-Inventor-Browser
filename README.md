@@ -66,7 +66,7 @@ Go to the same [App Inventor URL](http://ai2.appinventor.mit.edu/) you used befo
  - [ ] Dedicated New Tab rather than opening search engine
  - [ ] Bookmarks
  - [ ] Recover closed tab
- - [ ] Settings saved after closing and re-opening
+ - [X] Settings saved after closing and re-opening
  - [ ] Color themes
  
  # Credits
